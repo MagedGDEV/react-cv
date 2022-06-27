@@ -1,9 +1,9 @@
 import React from "react";
-
+import Welcome from "./intialPage/WelcomeDiv/Welcome";
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+    <Welcome />
     </div>
   );
 }

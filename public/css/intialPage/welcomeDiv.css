@@ -1,0 +1,19 @@
+.welcome {
+    background-color: #646FD4;
+    margin: 0;
+    text-align: center;
+    line-height: 2;
+    padding: 152px 0;
+}
+
+.welcomeMessage {
+    color: #DBDFFD;
+    text-align: left;
+    margin: 0 auto;
+    display: inline-block;
+    width: 500px;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+
