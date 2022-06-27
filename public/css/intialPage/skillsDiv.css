@@ -1,0 +1,18 @@
+.skills {
+    padding: 20px;
+    background-color: #646FD4;
+    color: #DBDFFD;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+
+    
+}
+
+.skillImages{
+    
+    position: relative;
+    bottom: 20px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}

@@ -3,7 +3,7 @@
     margin: 0;
     text-align: center;
     line-height: 2;
-    padding: 152px 0;
+    padding: 9.5rem 0;
 }
 
 .welcomeMessage {
@@ -11,9 +11,9 @@
     text-align: left;
     margin: 0 auto;
     display: inline-block;
-    width: 500px;
+    width: 31.25rem;
     position: relative;
-    bottom: 50px;
-    left: 50px;
+    bottom: 3.125rem;
+    left: 3.125rem;
 }
 
