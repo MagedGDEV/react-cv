@@ -2,12 +2,12 @@ import React from "react";
 import Logo from "./Logo";
 import ProjectDescription from "./ProjectDescription";
 function Project(props) {
-    return (
-        <div className= {props.isLeft ?"leftDescription": "rightDescription"}>
-            <Logo image= {props.image} alt = {props.alt} isLeft = {props.isLeft}/>
-            <ProjectDescription title={props.title} description={props.description} />
-        </div>
-    );
+  return (
+    <div className={props.isLeft ? "leftDescription" : "rightDescription"}>
+      <Logo image={props.image} alt={props.alt} isLeft={props.isLeft} />
+      <ProjectDescription title={props.title} description={props.description} />
+    </div>
+  );
 }
 
 export default Project;

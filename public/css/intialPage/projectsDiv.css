@@ -15,7 +15,7 @@
 .leftDescription {
     width: 650px;
     position: relative;
-    right: 250px; 
+    right: 20%; 
     margin: 40px auto 40px auto;
     text-align: left;
 }
@@ -30,7 +30,7 @@
     
     width: 650px;
     position: relative;
-    left: 250px; 
+    left: 20%; 
     margin: 0 auto 40px auto;
     text-align: left;   
 }

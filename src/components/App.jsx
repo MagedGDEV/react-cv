@@ -3,17 +3,16 @@ import Welcome from "./intialPage/WelcomeDiv/Welcome";
 import Projects from "./intialPage/ProjectsDiv/Projects";
 import Skills from "./intialPage/SkillsDiv/Skills";
 import Header from "./headerSection/Header";
-
+import Footer from "./FooterSection/Footer";
 function App() {
   return (
     <div>
-   
-        <Header/>
-        <Welcome />
-        <Projects />
-        <Skills />
-        
-        </div>
+      <Header />
+      <Welcome />
+      <Projects />
+      <Skills />
+      <Footer />
+    </div>
   );
 }
 

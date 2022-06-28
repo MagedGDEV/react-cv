@@ -11,19 +11,19 @@ import swiftLogo from "./images/swiftLogo.png";
 import dartLogo from "./images/dartLogo.png";
 import cLogo from "./images/cLogo.png";
 
-var Logos =  {
-    cPlusPlus:cPlusPlusLogo,
-    java:javaLogo,
-    python:pythonLogo,
-    html:htmlLogo,
-    css:cssLogo,
-    emu8086:emu8086Logo,
-    flutter:flutterLogo,
-    cSharp:cSharpLogo,
-    arduino:arduinoLogo,
-    swift:swiftLogo,
-    dart:dartLogo,
-    c:cLogo
-}
+var Logos = {
+  cPlusPlus: cPlusPlusLogo,
+  java: javaLogo,
+  python: pythonLogo,
+  html: htmlLogo,
+  css: cssLogo,
+  emu8086: emu8086Logo,
+  flutter: flutterLogo,
+  cSharp: cSharpLogo,
+  arduino: arduinoLogo,
+  swift: swiftLogo,
+  dart: dartLogo,
+  c: cLogo,
+};
 
 export default Logos;

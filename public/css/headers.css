@@ -3,12 +3,11 @@ header{
     background-color: white;
     width: 100%;
     height: 70px;
+    z-index: 1;
 }
 
 .PageLogo {
     float: left;
-    
-    
     padding: 10px 30px 0 30px;
 }
 
@@ -26,7 +25,5 @@ header{
 .Link {
     font-size: large;
     margin-left: 80px;
-    /* color:blueviolet; */
     text-decoration: none;
-
 }

@@ -1,20 +1,23 @@
 #welcome {
-    background-color: #646FD4;
-    margin: 0;
-    text-align: center;
-    line-height: 2;
-    padding: 9.5rem 0;
-    
+  background-color: #646fd4;
+  margin: 0;
+  text-align: center;
+  line-height: 2;
+  padding: 9.5rem 0;
 }
 
 .welcomeMessage {
-    color: #DBDFFD;
-    text-align: left;
-    margin: 0 auto;
-    display: inline-block;
-    width: 31.25rem;
-    position: relative;
-    bottom: 3.125rem;
-    left: 3.125rem;
+  color: #dbdffd;
+  text-align: left;
+  margin: 0 auto;
+  display: inline-block;
+  width: 31.25rem;
+  position: relative;
+  top: 20px;
+  left: 3.125rem;
 }
 
+.welcomeImage {
+  margin-left: 100px;
+  height: 550px;
+}

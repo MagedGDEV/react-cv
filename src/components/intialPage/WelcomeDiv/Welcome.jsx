@@ -4,7 +4,6 @@ import WelcomeMessage from "./WelcomeMessage";
 function Welcome() {
   return (
     <div id="welcome">
-     
       <WelcomeMessage />
       <WelcomeImage />
     </div>
