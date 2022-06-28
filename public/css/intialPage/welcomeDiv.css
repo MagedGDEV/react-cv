@@ -1,9 +1,10 @@
-.welcome {
+#welcome {
     background-color: #646FD4;
     margin: 0;
     text-align: center;
     line-height: 2;
     padding: 9.5rem 0;
+    
 }
 
 .welcomeMessage {

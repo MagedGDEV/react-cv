@@ -36,7 +36,7 @@ function Projects() {
         finalViews.push(projectViews[0]);
         for (var i = 1; i < projectViews.length; i++){
            if (i%2 === 0){
-                finalViews.push(<hr />);
+                finalViews.push(<hr key = {i*100}/>);
                 finalViews.push(projectViews[i]);
            }else {
                 finalViews.push(projectViews[i]);
@@ -44,13 +44,13 @@ function Projects() {
         }
         return finalViews;
     }
-    createProject(projectsData[0]);
+    
     const projectsViews = projectsData.map(createProject);
-    console.log(projectsViews);
+    
     
     
   return (
-    <div className="projects">
+    <div id="projects">
       <h2 className="headers">Projects Experiences</h2>
       
       {insertHr(projectsViews)}

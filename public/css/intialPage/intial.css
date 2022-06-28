@@ -2,6 +2,8 @@ body {
     margin: 0;
 }
 
+
+
 hr {
     border-style: dotted;
     border-bottom: none;
@@ -16,9 +18,11 @@ h1, h2, h3, h4, p{
 }
 
 .headers {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 
-.headers{
-    margin-bottom: 40px;
+
+
+.Logo {
+    height: 95px;
 }

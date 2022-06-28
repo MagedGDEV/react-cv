@@ -1,12 +1,9 @@
-.projects {
+#projects {
     padding: 40px;
     text-align: center;
     background-color: #9BA3EB;
     color: #DBDFFD;
-}
-
-.Logo {
-    height: 95px;
+    
 }
 
 .leftImage {
@@ -14,8 +11,6 @@
     margin-right: 20px;
     float: left;
 }
-
-
 
 .leftDescription {
     width: 650px;
@@ -32,10 +27,10 @@
 }
 
 .rightDescription {
+    
     width: 650px;
     position: relative;
     left: 250px; 
     margin: 0 auto 40px auto;
-    text-align: left;
-       
+    text-align: left;   
 }

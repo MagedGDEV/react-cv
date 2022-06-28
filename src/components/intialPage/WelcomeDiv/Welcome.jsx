@@ -3,7 +3,8 @@ import WelcomeImage from "./WelcomeImage";
 import WelcomeMessage from "./WelcomeMessage";
 function Welcome() {
   return (
-    <div className="welcome">
+    <div id="welcome">
+     
       <WelcomeMessage />
       <WelcomeImage />
     </div>
