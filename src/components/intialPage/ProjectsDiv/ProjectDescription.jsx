@@ -2,8 +2,8 @@ import React from "react";
 
 function ProjectDescription(props) {
   return (
-    <div>
-      <h3>{props.title}</h3>
+    <div className={props.class} >
+      <h3 className="proTitle">{props.title}</h3>
       <p>{props.description}</p>
     </div>
   );

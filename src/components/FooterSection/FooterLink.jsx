@@ -1,14 +1,14 @@
 import React from "react";
 
 function FooterLink(props) {
-  var [color, setColor] = React.useState("blueviolet");
+  var [color, setColor] = React.useState("white");
 
   function mouseOn() {
-    setColor("blue");
+    setColor("#EC9706");
   }
 
   function mouseOff() {
-    setColor("blueviolet");
+    setColor("white");
   }
   
   return (

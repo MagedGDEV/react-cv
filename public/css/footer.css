@@ -1,7 +1,9 @@
 footer {
     text-align: center;
-    background-color: white;
+    background-color: #0e2433;
     padding-bottom: 20px;
+    z-index: 2;
+    position:relative;
 }
 
 
@@ -19,14 +21,16 @@ footer {
 }
 
 .email {
-    
+    color :#EC9706;
     font-size: large;
     margin-bottom: 10px;
     margin-top: 0px;
 }
 
+
+
 .footerText {
-    
+    color:#EC9706;
     font-size: large;
     margin: 0;
 }

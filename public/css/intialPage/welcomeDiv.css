@@ -1,23 +1,37 @@
 #welcome {
-  background-color: #646fd4;
-  margin: 0;
+
+  margin: 0 0 0 0px;
+
   text-align: center;
   line-height: 2;
   padding: 9.5rem 0;
 }
 
 .welcomeMessage {
-  color: #dbdffd;
+  color: black;
   text-align: left;
   margin: 0 auto;
   display: inline-block;
-  width: 31.25rem;
+  width: 35rem;
   position: relative;
   top: 20px;
   left: 3.125rem;
 }
 
 .welcomeImage {
-  margin-left: 100px;
+  margin-left: 250px;
   height: 550px;
+  position: relative;
+  top: 50px;
+}
+
+.text {
+  line-height: 1.2;
+}
+.name {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 60px;
+  position: relative;
+  left: 65%;
 }

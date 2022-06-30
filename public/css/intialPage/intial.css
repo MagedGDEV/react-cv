@@ -1,8 +1,19 @@
 body {
     margin: 0;
+    font-size: 20px;
+    color:black;
+    background-color: #f5f5f5;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
 
+p , ul{
+    font-family: 'Prompt', sans-serif;
 
+}
+
+li {
+    margin-bottom: 10px;
+}
 
 hr {
     border-style: dotted;
@@ -13,16 +24,44 @@ hr {
     color: grey;
 }
 
-h1, h2, h3, h4, p{ 
+h1, h2, h3, h4,h5,h6{ 
     margin-top: 0;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 40px;
+   
 }
+
+
 
 .headers {
     padding-bottom: 40px;
 }
 
 
+.hello{
+    margin: 0;
+    font-size: 25px;
+    
+}
+
+.software {
+    text-align: center;
+}
 
 .Logo {
     height: 95px;
+}
+
+.why {
+    margin-bottom: 0px;;
+}
+
+.Margin {
+
+    
+    background-color: #1f45fc;
+    position:fixed;
+    width: 70px;
+    height: 100%;
+    z-index:1;
 }
