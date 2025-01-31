@@ -13,7 +13,7 @@ function Projects() {
           alt={project.alt}
           title={project.projectName}
           description={project.projectDescription}
-          isLeft={true}
+          isLeft={false}
         />
       );
     } else {
